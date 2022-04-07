@@ -20,7 +20,7 @@ GROUP BY `office_address`;
 
 SELECT AVG(`exam_student`.`vote`) AS 'media', `exam_id`
 FROM `exam_student`
-GROUP BY `exam_id`
+GROUP BY `exam_id`;
 
 ----------------------------------------------------------------------------------
 
@@ -28,6 +28,6 @@ GROUP BY `exam_id`
 
 SELECT  COUNT(id) AS 'degrees', `degrees`.`department_id` AS 'dipartment'
 FROM `degrees`
-GROUP BY `dipartment`
+GROUP BY `dipartment`;
 
 ----------------------------------------------------------------------------------
